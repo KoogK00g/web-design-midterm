@@ -82,8 +82,8 @@ nav a {
     padding: 20px;
   }
 }
-div img {
-    width: 80%;
+#wide{
+    width: 800px;
 }
 /* MAIN */
 main img {
