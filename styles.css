@@ -12,7 +12,7 @@ body {
     font-size: 18px;
     line-height: 1.3;
     color: #eeeeee;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: #024890
 }
 h1, h2, h3 {
@@ -33,25 +33,44 @@ body > header {
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 10px;
 }
+header h1 {
+    padding-top: 12px;
+}
 h1 {
   line-height: 1.1;
+}
+h2 {
+    text-align: center;
+}
+header {
+    padding-left: 0px;
 }
 header p {
     margin: 5px 0;
     font-family: 'Franklin Gothic', Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+header img {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-bottom: 10px;
+
+}
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 25px;
   display: flex;
 }
 nav ul li {
   margin: 5px;
 }
 nav a {
-    padding: 20px 0 40px 20px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius:20px;
     text-decoration: none;
     color: #eeeeee;
 }
@@ -82,22 +101,35 @@ nav a {
     padding: 20px;
   }
 }
-#wide{
-    width: 800px;
+#wide {
+    margin: auto;
+    max-width: 700px;
+    width: auto;
+    height: auto;
 }
 /* MAIN */
 main img {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 
 /* FOOTER */
 footer {
-  border-top: 1px solid white;
-  margin-top: 50px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    text-align: center;
+}
+footer img {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }  
 }
 
 
@@ -171,4 +203,12 @@ a {
 a:hover {
     color: #f5b706;
     cursor: pointer; /* Changes the cursor to a hand icon */
+}
+
+.currentpage {
+    background-color: #012f5e;
+}
+
+.navlogo {
+
 }
